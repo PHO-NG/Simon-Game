@@ -86,11 +86,11 @@ function buttonClicked(btn) {
     $("h1").text("Game Over, Press A Key to Restart");
     $("h1").after("<h3>Score " + level + "!</h3>");
     if (level <= 5) {
-      $("h3").after("<h3>You Suck! BAHAHAHAHAHAHAH</h3>");
+      $("h3").after("<h3>Could be worse... could be a lot better!</h3>");
     } else if (5 < level < 15) {
-      $("h3").after("<h3>Hmmmmmmmm nice...</h3>");
+      $("h3").after("<h3>Hmmmmmmmm not bad...</h3>");
     } else {
-      $("h3").after("<h3>HOLY POGCHAMP!!</h3>");
+      $("h3").after("<h3>Very nice!!</h3>");
     }
     startOver();
   }
